@@ -18,8 +18,8 @@ onload = function() {
                                         'box-shadow: 10px 10px 18px black; background-color: white;'
                             }, '<h2 style="text-align:center;">Edit profile description</h2>' +             // This is the
                                '<center><textarea style="width:80%;height:25vh;resize:none;">' +            // code for the
-                                document.querySelector('#about > span').innerHTML +                         // edit profile
-                               '</textarea><br><br><button onclick="updDesc();">Update</button></center>')  // gui.
+                                md +                                                                        // edit profile
+                               '</textarea><br><br><button onclick="updDesc();">Update</button></center>')  // gui. Dont ask.
                         );
                         gui_open = true;
                     }
