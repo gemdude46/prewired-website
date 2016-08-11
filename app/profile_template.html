@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Prewired | Profile of {0[name]}</title>
+        <link rel=stylesheet href="/static/base.css" type="text/css">
+        <link rel=stylesheet href="/static/profile.css" type="text/css">
+        <script src="//gemdude46.github.io/libs/+.js" type="text/javascript"></script>
+        <script src="/me.js" type="text/javascript"></script>
+        <script src="/static/profile_editor.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <div id=main>
+            <div id=about>
+                <div id=name>{0[name]}</div>
+                <hr>
+                <img src="{0[image]}" id=avatar>
+                <span>{0[desc esc]}</span>
+            </div>
+            <hr>
+            <h1>Projects</h1>
+            <div id=projects>
+                {0[projects]}
+            </div>
+            <div id=push></div>
+        </div>
+    </body>
+</html>

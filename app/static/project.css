@@ -1,0 +1,30 @@
+#main {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    box-shadow: 10px 10px 15px #888;
+}
+
+#push {
+    position: absolute;
+    bottom: -10vh;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+#main > h1 {
+    line-height: 3em;
+}
+
+#main > h1 > img {
+    height: 3em;
+    vertical-align: middle;
+    margin: 1em;
+    box-shadow: 3px 3px 5px #bbb;
+}
+
+#desc {
+    margin: 3em;
+}

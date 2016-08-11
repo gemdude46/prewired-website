@@ -1,0 +1,63 @@
+#main {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    width: 60%;
+    box-shadow: 10px 10px 15px #888;
+}
+
+#push {
+    position: absolute;
+    bottom: -10vh;
+    left: 0;
+    width: 100%;
+    height: 1px;
+}
+
+#name {
+    font-size: 200%;
+    font-weight: bold;
+}
+
+#about {
+    width: 100%;
+    width: calc(100% - 2em);
+    padding: 1em;
+    min-height: 12em;
+}
+
+#avatar {
+    height: 8em;
+    float: left;
+    box-shadow: 3px 3px 5px #bbb;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
+
+#main > h1 {
+    margin-left: 4%;
+}
+
+#projects {
+    width: 90%;
+    margin-left: 5%;
+    overflow: auto;
+    min-height: 10em;
+    max-height: 50vh;
+    border: 3px double gray;
+    margin-bottom: 2em;
+}
+
+#projects > div {
+    height: 2em;
+    padding: 5px;
+    line-height: 2em;
+}
+
+#projects > div > img {
+    height: 2em;
+    vertical-align: middle;
+    margin-right: 3em;
+}
+
+
