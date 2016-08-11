@@ -1,8 +1,115 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Prewired</title>
-    </head>
-    <body>
-    </body>
+  <head>
+    <title>Prewired</title>
+    <link rel=stylesheet href=style.css type=text/css>
+    <script type="text/javascript">
+      onload = function(){
+        Array.from(document.querySelectorAll('.link[to]')).forEach(function(e){
+          e.addEventListener('click', function(){
+            location.href = e.getAttribute('to');
+          });
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <div id=left>
+      <div class=link>Home</div>
+      <div class=link>Events</div>
+      <div class=link>Parents</div>
+      <div class=link>Mentors</div>
+      <div class=link to="index2.html">Sponsors</div>
+      <div class=link>FAQ's</div>
+      <div class=link to="pw.html">Forum</div>
+    </div>
+
+    <div id=middle>
+      <h1>Prewired</h1>
+
+      <div id=project>
+            <h2>
+    How to Join
+            </h2>
+            <p>
+
+    You or a parent sign up for the newsletter using the form below, so you don't miss out on any announcements.
+    Register for membership (it's free!), leaving your emergency contact details and any special requirements.
+    Book your place each week for our sessions using Eventbrite.
+    Turn up!<br>
+      &bull;If you have never coded before, or have but don't know what to do, no problem! Introduce yourself to the Duty Mentor (who should be easy to spot) when you arrive, and they’ll help you to get started.<br>
+      &bull;If you're already working on a coding project (maybe you’re building your own website), or learning a topic by yourself and are happy to carry on with that, cool beans. Make yourself at home and ask a
+            </p>
+    <!--copying and pasting the text from the website for the information in this box-->
+            <h2>
+              When and Where?
+            </h2>
+
+            <p>
+                &bull;Find us every Wednesday between 5:30 and 7:30 in <u>CodeBase</u>.<br>
+                &bull;Sign in (tick your name off the list) at the main entrance, then follow signs to the room.
+
+            </p>
+
+            <h2>
+              What to bring
+            </h2>
+
+            <p>
+              &bull;If you can bring your own laptop, please do! But if you need to borrow one, we have a few spares-just ask a mentor.<br>g
+              &bull;If you have any other hardware or special equipment you'd like to use, feel free to bring that too. There's likely to be someone around that can help you get it working.<br>
+              &bull;We provide some snacks, but you can bring your own if you like. Enthusiasm! Whether you know everything or nothing at all, all you need to be is excited about making something cool with computers. If you have any ideasabout what you'd like to do but don't know how to do it you should let someone know.
+            </p>
+            <h2>
+              Keeping in touch
+            </h2>
+            <p>
+              If you want to chat to other members in-between sessions, you can:<br>
+                  &bull;Request to join the mailing list: prewired-discuss"googlegroups.com<br>
+                  &bull;Join the Facebook Group.<br>
+                  &bull;Join the  IRC channel (ask a mentor for the password).<br>
+                  &bull;Send @prewired a message on Twitter.
+            </p>
+
+            <p>
+              Watch this space... Soon we'll have our very own social network which you can use to blog about your projectsor chat to other members in your own private space.
+            </p>
+
+            <h2>
+              Any Questions
+            </h2>
+
+            <p>
+              Check out the FAQ, or email hello [at] prewired [dot] org.
+
+              To find out how we've developed and what we've been doing, read our <u>first Prewired report</u>!
+            </p>
+      </div>
+
+      <div id=welcome>
+        <h2>
+          Welcome!
+        </h2>
+
+        <p>
+          If you're less that 19 years old and interested in learning to code, or already know how and want to go even further, you're in the right place!<br><br>Web, mobile, games... software, hardware, designing, coding, making... <span class=blue>anything goes</span>.<br><br>Computers let you create anything you can think of. Prewired is here to help enthusiastic young coders of <span class=blue>any ability</span> to do just that.
+        </p>
+      </div>
+    </div>
+
+    <div id=right>
+      <img src="0002(1).png">
+      <div>
+        Forum
+        <p>The Forum on this website allows the people that go to prewired to post any questions, queries or answers and to discuss other matters in a mature and sensible way.
+      </div>
+      <div id=book>
+        <img src="prewired calendar.png">Book Here
+      </div>
+
+      <div id=info>
+
+      </div>
+    </div>
+  </body>
 </html>
