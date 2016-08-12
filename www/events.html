@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Events</title>
+    <link rel=stylesheet href=style.css  type=text/css>
+    <link rel=stylesheet href=style2.css type=text/css>
+    <script type="text/javascript">
+      onload = function(){
+        Array.from(document.querySelectorAll('.link[to]')).forEach(function(e){
+          e.addEventListener('click', function(){
+            location.href = e.getAttribute('to');
+          });
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <h1 style="text-align: center; display: block;">Events</h1>
+
+    <div id=left>
+      <div class=link to="index.html">Home</div>
+      <div class=link to="events.html">Events</div>
+      <div class=link to="parents.html">Parents</div>
+      <div class=link to="mentor.html">Mentors</div>
+      <div class=link to="index2.html">Sponsors</div>
+      <div class=link to="FAQ.html">FAQ</div>
+      <div class=link to="pw.html">Forum</div>
+    </div>
+
+    <div id=middle>
+      <h2>Current Events</h2>
+
+      <hr>
+
+        <p class=class>
+          As well as our weekly sessions, we hold special one-off or annually repeating events. I you know of an event you'd like to take part in with Prewired's help, please let us know!
+        </p>
+
+        <h3>Summer Hack Week</h3>
+
+      <hr>
+
+      <div id=summerhack>
+        Find out about<br>Summer Hack 2016!
+      </div>
+
+      <hr>
+
+      <h2 style="font-size:200%;">Past Events</h2>
+
+      <h3>
+        First Lego League Competition
+      </h3>
+      <p>
+        Annually we enter a team into the First Lego League Competition, around November.
+      </p>
+
+      <h3>
+        25th November 2015 - Coding.Demystified();
+      </h3>
+      <p>
+        A workshop for parents and other interested adults. Are you curious about programming? Join us at this 2-hour interactive workshop to try your hand at coding, build your own programs and discover the creative world of computing.
+      </p>
+
+      <h3>
+        September 2nd - 3D printing demo with <u>Daniel Pinchassoff</u>
+      </h3>
+      <p>
+        If you'd like to try your hand at modelling for a 3D printer, have a look at Meshmixer software or have a look on thingiverse to get an idea of the range of 3D printable designs already out there.
+      </p>
+
+      <h3>
+        October 21st - Robotics workshop with <u>Daniel Pinchassoff</u>
+      </h3>
+
+      <h3>
+        Young Rewired State 27th July - 3rd August
+      </h3>
+      <h3>
+        See <u>Prewired YRS 2015 Edinburgh</u> for details!
+      </h3>
+      <p>
+        Sign up as a participant or mentor on the YRS website.
+      </p>
+
+      <h3>
+        13th-17th April 2015 - Maker Week
+      </h3>
+      <p>
+        Prewired every day! Mentors were around to help Prewired participants work on whatever cool project they wanted, and there were some great outcomes!
+      </p>
+
+      <h3>
+        19th April 2015 - Mini Maker Faire
+      </h3>
+      <p>
+        The Mini Maker Faire was an event in Summerhall, Edinburgh, on Sunday 19th April. We had a table to show off the variety of interesting projects that happen at Prewired. Kids attended as 'crew' to show off their work and tell people about Prewired. They did an amazing job!
+      </p>
+
+      <h3>
+        4th March 2015 - Beginners Android Development
+      </h3>
+      <p>
+        Learn the basics of how to make your first Android app with members of Scotland's largest mobile app development agency, Kotikan. Over the course of the evening we'll introduce key concepts required to create an Android app and work with you as you build your own simple product.
+      </p>
+      <p>
+        Before you come, if possible, install the following on your laptop:
+      </p>
+      <p>
+        &bull; Android Studio and the Android SDK<br>
+        &bull; GenyMotion (plugin to Android studio)
+      </p>
+      <p>
+        <i>No prior experience with Android or Java necessary! (But it also won't hurt)</i>
+      </p>
+
+
+
+
+
+      </div>
+    </div>
+
+    <div id=right>
+      <img src="0002.png">
+      <div>
+        Forum
+        <p>The Forum on this website allows the people that go to prewired to post any questions, queries or answers and to discuss other matters in a mature and sensible way.
+      </div>
+
+    </div>
+  </body>
+</html>
